@@ -1,0 +1,69 @@
+.container{
+  max-width: 1170px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav{
+  width: 935px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo{
+  font-family: 'Raleway', sans-serif;
+  text-decoration: none;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+  color: black;
+}
+.logoPart{
+  color: #2196F3;
+}
+.navLinks{
+  display: flex;
+  gap: 55px;
+  align-items: center;
+}
+.navLink{
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  color: #212121;
+  font-family: 'Roboto', sans-serif;
+  text-decoration: none;
+  padding-top: 32px;
+  padding-bottom: 28px;
+  border-bottom: 4px solid transparent;
+}
+.navLink:hover{
+  color: #2196F3;
+  border-bottom: 4px solid #2196F3;
+  border-radius: 2px;
+}
+.navContacts{
+  display: flex;
+  gap: 30px;
+}
+.navContact{
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  color: #757575;
+  font-family: 'Roboto', sans-serif;
+  text-decoration: none;
+}
+.navIcons{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+}
+.navIcons:hover .icon path{
+  fill: #2196F3 !important;
+}
+.navIcons:hover .navContact{
+  color: #2196F3;
+}

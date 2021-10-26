@@ -1,0 +1,23 @@
+.img{
+  width: 370px;
+  height: 294px;
+  position: relative;
+}
+.titleBg{
+  position: absolute;
+  width: 370px;
+  height: 70px;
+  bottom: 0;
+  left: 0;
+  background: rgba(47, 48, 58, 0.8);
+}
+.title{
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  font-size: 14px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  line-height: 42px;
+}

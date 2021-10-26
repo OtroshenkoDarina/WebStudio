@@ -1,0 +1,29 @@
+.container{
+  background-image: url("../../img/Img.png");
+  background-size: cover;
+  min-height: 600px;
+  width: 100vw;
+  position: relative;
+  background-repeat: no-repeat;
+}
+.bg{
+  background: rgba(47, 48, 58, 0.4);
+  position: absolute;
+  min-height: 600px;
+  width: 100vw;
+  background-size: cover;
+  top: 0;
+  left: 0;
+}
+.title{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  max-width: 700px;
+  margin: 200px auto 40px;
+}

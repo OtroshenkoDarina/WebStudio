@@ -1,0 +1,49 @@
+.form{
+  margin: 0 auto;
+}
+.title{
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+  font-family: 'Roboto', sans-serif;
+}
+.inputTitle{
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 0.01em;
+  color: #757575;
+  font-family: 'Roboto', sans-serif;
+}
+.input{
+  width: 393px;
+  padding: 15px 15px 15px 40px;
+  outline: none;
+}
+.inputContainer{
+  position: relative;
+}
+.inputComments{
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  border-radius: 4px;
+  width: 418px;
+  height: 90px;
+  outline: none;
+  line-height: 15px;
+  padding: 15px;
+}
+.agreement{
+  display: flex;
+}
+.agreementTitle{
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: #757575;
+  font-family: 'Roboto', sans-serif;
+}
+.agreementPart{
+  color: #2196F3;
+}
